@@ -14,10 +14,10 @@ int main()
      *###################################################################################*/
 
     graphe.lecture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe1.col");
-    graphe.lecture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe2.col");
+//    graphe.lecture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe.col");
     graphe.affichage();
     graphe.ecriture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe1.dot");
-    graphe.ecriture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe2.dot");
+//   graphe.ecriture("/home/TBoubacar/AlgoGraphe/TP1/TP1_LectureEcritureGraphe/fichierGraphe.dot");
     std::cout << "------------------" << std::endl;
     return 0;
 }
