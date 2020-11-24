@@ -1,2 +1,3 @@
 # CreationDeGraphe
 Ce projet est écrit en C++14 avec usage de nombreuses librairies de bases pour la mise en place d'un algorithme de gestions de graphes avec les fichiers .dot
+Il a pour but de prendre un fichier contenant des informations utiles pour la création des graphes (type de fichiers que vous pourriez retrouver facilement sur internet "fichier.col") et de les traduire en fichier.dot. Avec la commande "dot -T png <nomFichier.dot> <nomFichier>.png" vous pourriez générer un fichier image contenant le graphe en question. Pour plus d'information sur le code, veuillez consulter le code (réutilisable car écrit en Langage Objet "Class").
