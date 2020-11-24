@@ -2,7 +2,10 @@
 #include <iterator>
 #include <algorithm>
 /*
- *
+ *  NOM     : TOURE Boubacar
+ *  DATE    : November 24, 2020
+ *  Email   : boubacartoure123@gmail.com
+ *  
  */
 
 std::vector<std::string> decouperPhrase(const std::string &phrase) {
