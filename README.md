@@ -1,4 +1,4 @@
-# CreationDeGraphe
+# CreationDeGrapheColoré
 Le but de ce projet était d'implementer de manière automatique et rapide un algorithme de coloration des Graphes.
 Pour le développement de cet algorithme principalement écrite en C++14 (code réutilisable car usage de class), j'ai
 eu à utiliser de nombreux bibliothèque standard du langage tels que : iostream, sstream, vector, algorithm, fstream, string...
