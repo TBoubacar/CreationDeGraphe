@@ -1,4 +1,10 @@
 # CreationDeGraphe
-Ce projet est écrit en C++14 avec usage de nombreuses librairies de bases (iostream, string, vector/list, algorithm, sstream, etc.) pour la mise en place d'un algorithme de gestions de graphes avec les fichiers d'extention ".dot". Il a pour but de prendre un fichier contenant des informations utiles pour la création de graphes (type de fichiers que vous pourriez retrouver facilement sur internet << fichier d'extention ".col" >>) et de les traduire en fichier d'extention ".dot".
-Avec la commande "dot -T png nomFichier.dot -o nomFichier.png", vous pourriez générer un fichier image d'extention ".png" contenant le graphe en question. Pour plus d'information sur le code, veuillez consulter le code (réutilisable car écrit en Langage Objet "Class").
-Lien utile : https://mat.gsia.cmu.edu/COLOR/instances.html
+Le but de ce projet était d'implementer de manière automatique et rapide un algorithme de coloration des Graphes.
+Pour le développement de cet algorithme principalement écrite en C++14 (code réutilisable car usage de class), j'ai
+eu à utiliser de nombreux bibliothèque standard du langage tels que : iostream, sstream, vector, algorithm, fstream, string...
+Objectif :
+  Générer des graphes colorés à l'aide des fichiers d'extention ".col" qui contiennent toutes les informationss necéssaires pour
+  écrire un fichier ".dot" utile et ainsi déterminer le nombre chromatique de chaque graphe (le nombre de couleurs utiles pour le graphe).
+  Il est possible de retrouver les fichiers ".col" sur internet à l'adresse suivante (https://mat.gsia.cmu.edu/COLOR/instances.html) 
+  afin de pouvoir générer le graphe correspondant à l'aide d'un fichier ".dot" qui nous dévrions générer de manière automatique pour 
+  avoir notre graphe coloré au format "png".
