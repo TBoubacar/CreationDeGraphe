@@ -1,12 +1,13 @@
 #include "graphes.hh"
 
-/*------------------------------------------------------------------------
+/*----------------------------------------------------------------------------------------------
  *                  GRAPHES-MÉTHODE (LECTURE & ECRITURE)
- * NOM  :       TOURE Boubacar Etudiant à la faculté de Sciences d'Angers
- * DATE :       22 DECEMBRE 2020
- * EMAIL:       aboubacar6474@gmail.com
+ * Nom  :   TOURE Boubacar Etudiant en Licence 3 Informatique à la faculté de sciences d'Angers
+ * Date :   23 Decembre 2020 à 7 h 10 min
+ * Email:   boubacartoure123@gmail.com
+ * @copyright : Non utilisable pour des fins commerçiales
  *
- *------------------------------------------------------------------------*/
+ *---------------------------------------------------------------------------------------------*/
 
 void Graphe::initialiserGraphe()
 {    _ensSommet.clear(); }
